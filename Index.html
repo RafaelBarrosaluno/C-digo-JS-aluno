@@ -1,10 +1,22 @@
+
 <html>
     <head>
-        <meta charset="UTF-8">
-        <title> Aula 02</title>
-        <script src="JS/idade.js"></script>
+        <title> Se aluno passou ou não</title>
+        <script src="JS/javinha.js"></script>
     </head>
-        <body>
-
+    <body>
+        <form>
+            Digite o nome do aluno: <br/>
+            <input type="text" id="nome" class="nome"/><br/>
+            Digite a primeira nota do aluno: <br/>
+            <input type="text" id="not1" class="not1"/><br/>
+            Digite a segunda nota do aluno: <br/>
+            <input type="text" id="not2" class="not2"/><br/>
+            Digite a terceira nota do aluno: <br/>
+            <input type="text" id="not3" class="not3"/><br/>
+            Digite a porcentagem de presença do aluno:<br/>
+            <input type="text" id="pren" class="pren"/><br/>
+            <button onClick="calcularNota()">Exibir</button>
+        </form>
     </body>
 </html>
