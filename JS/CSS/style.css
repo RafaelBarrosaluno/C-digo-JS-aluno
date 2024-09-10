@@ -1,0 +1,18 @@
+form{
+    border: solid;
+    text-align: center;
+    background-color: rgb(129, 215, 255);
+    
+}
+.image{
+    text-align: center;
+    width: 100%;
+  height: auto;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+body{
+    background-color: rgb(213, 252, 253);
+}
